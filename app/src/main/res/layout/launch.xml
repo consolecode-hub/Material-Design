@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bga" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <Button
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableRight="@drawable/arrow"
+            android:padding="10dp"
+            android:text="Pay"
+            android:onClick="launch1"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#2962FF"
+            android:textColorHint="#348FFF" />
+        <Button
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableRight="@drawable/arrow"
+            android:padding="10dp"
+            android:text="OTP"
+            android:onClick="launch2"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#348FFF" />
+        <Button
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableRight="@drawable/arrow"
+            android:padding="10dp"
+            android:text="Shop Card"
+            android:onClick="launch3"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#348FFF" />
+
+        <Button
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableRight="@drawable/arrow"
+            android:padding="10dp"
+            android:text="Card View"
+            android:onClick="launch4"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#348FFF" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
